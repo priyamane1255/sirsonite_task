@@ -75,7 +75,7 @@ body {     font-family: 'Outfit', sans-serif;overflow-x: hidden; }
     position: relative;
     height: 80vh;
     min-height: 600px;
-    background: url('img/slider.jpg') no-repeat center center/cover;
+    background: url('slider.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
 }
@@ -889,4 +889,5 @@ body {     font-family: 'Outfit', sans-serif;overflow-x: hidden; }
 @media (max-width: 600px) {
     .footer-grid { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; gap: 15px; text-align: center; }
+
 }
